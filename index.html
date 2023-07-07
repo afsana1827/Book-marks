@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css" />
+    <title>Bookmarks</title>
+  </head>
+  <body>
+    <header class="flex items-center justify-between p-8 max-w-7xl mx-auto">
+      <div class="">
+       
+        <img src="images/logo.png" alt="" />
+       
+      </div>
+      <!--  -->
+      <div class="md:hidden">
+        <button id="open-nav">
+          <img src="images/Group.jpg" alt="" />
+        </button>
+      </div>
+      <!-- nav -->
+      <nav class="">
+        <ul class="hidden md:flex items-center space-x-6 ">
+          <a href="#" class="hover:text-[#FA5959]">FEATURES</a>
+          <a href="#" class="hover:text-[#FA5959]">PRICING</a>
+          <a href="#" class="hover:text-[#FA5959]">CONTACT</a>
+          <a href="#" class="py-2 px-4 text-white bg-[#FA5959] rounded-lg baseline hover:bg-transparent hover:text-[#FA5959] border border-transparent hover:border-red-500 ">LOGIN</a>
+        </ul>
+<div  id="menu"
+    class="fixed top-0 left-0 -translate-x-full transition-all  duration-300 ease-in-out w-screen h-screen bg-[#242A45] drop-shadow-md "
+  >
+  <div class="w-full flex justify-between px-10 py-5 ">
+    <img src="images/bl.png" class="" alt="">
+    <button id="close-nav" class="text-white">X</button>
+  </div>
+
+  <div class="w-full h-[80%]  text-white flex flex-col  items-center justify-center space-y-6 font-bold">
+    <a href="#" class="border-t border-slate-400 last:border-b md:border-t-0 md:border-b py-3 md:px-6">FEATURES</a>
+    <a href="#" class="border-t border-slate-400 last:border-b md:border-t-0 md:border-b py-3 md:px-6">PRICING</a>
+    <a href="#" class="border-t border-slate-400 last:border-b md:border-t-0 md:border-b py-3 md:px-6">CONTACT</a>
+    <a href="#" class="border border-white px-36 py-3 ">LOGIN</a>  
+    </div>
+    <div class="flex space-x-6 justify-center">
+      <a href=""><img src="images/Facebook.png" alt="" /></a>
+          <a href=""><img src="images/Twitter.png" alt="" /></a>
+          </div>
+  </div>
+
+        <!-- social -->
+        
+             
+      </nav>
+        
+        
+      
+    </header>
+    <!-- hero -->
+    <section
+      class="flex flex-col-reverse px-8 py-20 lg:grid lg:grid-cols-2 lg:gap-16 max-w-7xl mx-auto lg:place-items-center"
+    >
+      <div class="text-center lg:text-left">
+        <h1 class="text-4xl my-8  lg:text-5xl">
+          A Simple Bookmark Manager
+        </h1>
+        <p class="text-[#9194A2] line-height: 1.8">
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly.Try it for free.
+        </p>
+
+        <ul
+          class="mt-10 flex items-center text-white justify-center flex-wrap gap-4 lg:justify-start"
+        >
+          <li>
+            <button
+              class="py-2 px-4 text-white bg-[#5267DF] rounded shadow-lg hover:opacity-75"
+            >
+              Get it on Chrome
+            </button>
+          </li>
+          <li>
+            <button
+              class="py-2 px-4 bg-slate-100 text-slate-800 rounded shadow-lg hover:opacity-75"
+            >
+              Get it on Firefox
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img src="images/hero box-right.jpg" class="w-full" alt="" />
+        <!-- <div class="bg"></div> -->
+      </div>
+    </section>
+    <!-- tabs -->
+    <section class="max-w-7xl mx-auto px-8 py-20">
+      <div class="text-center">
+        <h2 class="text-3xl mb-8 font-bold lg:text-4xl">Features</h2>
+        <p class="text-[#9194A2] justify-center lg:w-96 lg:mx-auto">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites.Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+
+      <div>
+        <div class="flex justify-center flex-col text-center my-10 md:flex-row">
+          <a
+            href=""
+            class="border-t border-slate-400 last:border-b md:border-t-0 md:border-b py-3 md:px-6 text-slate-600"
+            >Simple Bookmarking</a
+          >
+          <a
+            href=""
+            class="border-t border-slate-400 last:border-b md:border-t-0 md:border-b py-3 md:px-6 text-slate-600"
+            >Speedy Searching</a
+          >
+          <a
+            href=""
+            class="border-t border-slate-400 last:border-b md:border-t-0 md:border-b py-3 md:px-6 text-slate-600"
+            >Easy Sharing</a
+          >
+        </div>
+        <div
+          class="lg:flex items-center justify-center lg:gap-16 pt-10 max-w-7xl mx-auto"
+        >
+          <div class="lg:flex-1">
+            <img
+              src="images/feature-left.jpg"
+              class="block mx-auto w-full"
+              alt=""
+            />
+          </div>
+          <div class="text-center lg:text-left lg:flex-1">
+            <h2 class="text-3xl my-8 lg:text-4xl">Bookmark in one click</h2>
+            <p class="mb-10 text-[#9194A2]">
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <button
+              class="px-4 py-2 text-white bg-[#5267DF] rounded shadow-lg hover:opacity-75"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- extension -->
+    <section class="max-w-7xl mx-auto">
+      <div class="text-center">
+        <h2 class="text-3xl mb-8 lg:text-4xl">Download the extension</h2>
+        <p class="text-[#9194A2] justify-center lg:w-96 lg:mx-auto">
+          We’ve got more browsers in the pipeline. Please do let us know if
+          you’ve got a favourite you’d like us to prioritize.
+        </p>
+      </div>
+      <article
+        class="relative container mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:md:grid-cols-3"
+      >
+        <div class="bg-white shadow-2xl text-center p-8 rounded">
+          <img src="images/chrome 2.jpg" class="block mx-auto mb-4" alt="" />
+          <h3 class="text-xl mb-4 font-bold">Add to Chrome</h3>
+          <p class="text-sm text-[#9194A2]">Minimum version 62</p>
+          <img src="images/dots.png" class="block mx-auto mb-4 py-5" alt="" />
+          <a
+            href="#"
+            class="p-2 px-7 py-3 bg-[#5267DF] text-white rounded-lg baseline hover:bg-transparent hover:text-[#5267DF] border border-transparent hover:border-blue-500"
+            >Add & Install Extension</a
+          >
+        </div>
+
+        <div
+          class="bg-white shadow-2xl text-center p-8 lg:transform lg:translate-y-10 rounded"
+        >
+          <img src="images/firefox.svg" class="block mx-auto mb-4" alt="" />
+          <h3 class="text-xl mb-4 font-bold">Add to Firefox</h3>
+          <p class="text-sm text-[#9194A2]">Minimum version 55</p>
+          <img src="images/dots.png" class="block mx-auto mb-4 py-5" alt="" />
+          <a
+            href="#"
+            class="p-2 px-7 py-3 bg-[#5267DF] text-white rounded-lg baseline hover:bg-transparent hover:text-[#5267DF] border border-transparent hover:border-blue-500"
+            >Add & Install Extension</a
+          >
+        </div>
+
+        <div
+          class="bg-white shadow-2xl text-center p-8 rounded lg:transform lg:translate-y-20"
+        >
+          <img
+            src="images/Combined Shape 2.svg"
+            class="block mx-auto mb-4"
+            alt=""
+          />
+          <h3 class="text-xl mb-4 font-bold">Add to Opera</h3>
+          <p class="text-sm text-[#9194A2]">Minimum version 62</p>
+          <img src="images/dots.png" class="block mx-auto mb-4 py-5" alt="" />
+          <a
+            href="#"
+            class="p-2 px-7 py-3 bg-[#5267DF] text-white rounded-lg baseline hover:bg-transparent hover:text-[#5267DF] border border-transparent hover:border-blue-500"
+            >Add & Install Extension</a
+          >
+        </div>
+      </article>
+    </section>
+
+    <!-- FQA -->
+    <section class="max-w-xl mx-auto py-20">
+      <div class="text-center">
+        <h2 class="text-3xl my-8 justify-center lg:w-67 lg:mx-auto" >Frequently Asked Questions</h2>
+        <p class="text-sm text-[#9194A2]">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+   <div class="p-6 max-w-xl mx-auto py-10 space-y-5">
+        <article class="text-center accordion ">
+    <div class="accrodion-header py-4 border-t border-slate-400 last:border-b">
+      <button class="flex justify-between items-center w-full">
+        <h6 class="text-xl  lg:text-xl hover:text-[#FA5959]">What is Bookmark?</h6>
+        <span class="text-3xl"><img src="images/arrow.svg" alt=""></span>
+      </button>
+    </div>
+    
+      <p class="accordion-content hidden">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. </p>
+   
+   
+  </article>
+<!-- 2 -->
+  <article class="text-center accordion ">
+    <div class="accrodion-header py-4 border-t border-slate-400 last:border-b">
+      <button class="flex justify-between items-center w-full">
+        <h6 class="text-xl  lg:text-xl hover:text-[#FA5959]">How can I request a new browser?</h6>
+        <span class="text-3xl"><img src="images/arrow.svg" alt=""></span>
+      </button>
+    </div>
+    
+      <p class="accordion-content hidden">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. </p>
+   
+   
+  </article>
+  <!-- 3 -->
+   <article class="text-center accordion ">
+    <div class="accrodion-header py-4 border-t border-slate-400 last:border-b">
+      <button class="flex justify-between items-center w-full">
+        <h6 class="text-xl  lg:text-xl hover:text-[#FA5959]">Is there a mobile app?</h6>
+        <span class="text-3xl"><img src="images/arrow.svg" alt=""></span>
+      </button>
+    </div>
+    
+      <p class="accordion-content hidden">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. </p>
+   
+   
+  </article>
+  <!-- 4 -->
+   <article class="text-center accordion ">
+    <div class="accrodion-header py-4 border-t border-slate-400 last:border-b">
+      <button class="flex justify-between items-center w-full">
+        <h6 class="text-xl  lg:text-xl hover:text-[#FA5959]">What about other Chromium browsers?</h6>
+        <span class="text-3xl"><img src="images/arrow.svg" alt=""></span>
+      </button>
+    </div>
+    
+      <p class="accordion-content hidden">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. </p>
+   
+   
+  </article>
+  </div>
+        <div>
+          <button class="px-4 py-2 text-white bg-[#5267DF] rounded shadow-lg hover:opacity-75 block mx-auto">More Info</button>
+        </div>
+    </section>
+    <!-- CTA -->
+    <section id="cta" class="bg-[#5267DF] px-8 py-20 ">
+      <div class="mx-w-7xl mx-auto">
+        <h3 class="text-white text-sm text-center">35,000+ ALREADY JOINED</h3>
+        <h2
+          class="text-white text-3xl text-center lg:text-4xl lg:w-96 lg:mx-auto"
+        >
+          Stay up-to-date with what we’re doing
+        </h2>
+        <form
+          class="flex flex-col gap-4 md:flex-row md:items-center md:justify-center md:max-w-xl md:mx-auto pt-3"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+            class="w-full py-2 px-3 shadow-lg rounded"
+            required
+          />
+          <a
+            href="#"
+            type="submit"
+            class="py-2 px-4 bg-[#FA5959] text-[#FFFFFF] rounded shadow-lg md:w-40"
+            >Contact Us</a
+          >
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-[#242A45] py-10 px-8">
+      <div
+        class="max-w-7xl mx-auto flex items-center justify-center gap-4 flex-col text-center md:flex-row md:justify-between"
+      >
+        <div class="md:flex md:items-center md:gap-6 lg:gap-10">
+          <img src="images/logo-light.png" alt="" />
+          <ul class="mt-6 text-white md:mt-0 md:flex md:gap-6 lg:gap-10">
+            <li class="">
+              <button class="text-white text-sm tracking-wide hover:text-[#FA5959]"></button>FEATURES
+            </li>
+            <li class="my-4 md:my-0">
+              <button class="text-white text-sm tracking-wide hover:text-[#FA5959]"></button>PRICING
+            </li>
+            <li>
+              <button class="text-white text-sm tracking-wide hover:text-[#FA5959]"></button>CONTACT
+            </li>
+          </ul>
+        </div>
+
+        <ul class="flex items-center gap-4 lg:gap-10">
+          <li>
+            <button><img src="images/Facebook.png" class="hover:text-[#FA5959]" alt="" /></button>
+          </li>
+          <li>
+            <button><img src="images/Twitter.png" class="hover:text-[#FA5959]" alt="" /></button>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+
+
+const openBtn = document.getElementById("open-nav");
+    const openMenu = document.getElementById("menu");
+    const closeBtn = document.getElementById("close-nav");
+    const accordionButtons = document.querySelectorAll(".accordion")
+    openBtn.addEventListener("click", function () {
+        openMenu.style.transform = "translateY(0%)"
+        // openMenu.classList.add("btn")
+    })
+    closeBtn.addEventListener("click", function () {
+        openMenu.style.transform = "translateY(-50%)"
+        // openMenu.classList.remove("btn")
+    })
+accordionButtons.forEach((accordion) => {
+  const button = accordion?.children[0].children[0];
+  const content = accordion?.children[1];
+
+  button.addEventListener("click", function () {
+    content.classList.toggle("hidden");
+  });
+});
+
+    
+    </script>
+  </body>
+</html>
